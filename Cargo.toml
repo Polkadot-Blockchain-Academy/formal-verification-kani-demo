@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "kani-example",
+    "kani-loop",
+]
+[profile.release]
+panic = "unwind"
